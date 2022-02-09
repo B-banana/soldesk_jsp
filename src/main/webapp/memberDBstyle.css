@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap')
+	;
+
+* {
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+table {
+	background-color: #9cf;
+	padding: 1px;
+	margin-top: 10px;
+	border-collapse: collapse;
+	border: 1px solid gray;
+	color: #202020;
+
+}
+
+tr {
+	background: #9cf;
+	width: auto;
+	border: 1px solid gray;
+}
+
+th {
+	background: #3399ff;
+	border: 1px solid gray;
+	width: 150px;
+text-align: center;
+}
+
+th, td {
+	height: 30px;
+	padding: 5px;
+}
+
+input {
+	/* width: 300px; */
+
+	display: inline;
+
+}
+
+input[type="checkbox"], [type="radio"] {
+	width : 30px;
+	text-align: center;
+	text-transform: translateY(-50%);
+}
+
+button {
+	width: 80px;
+	font-weight: 900;
+}
